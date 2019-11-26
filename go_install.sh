@@ -1,10 +1,6 @@
 #!/bin/bash
 set -e
-mkdir -p /data{go/.go}
 VERSION="1.13.4"
-echo Export GOROOT="/data/.go" >> ~/.bashrc
-echo Export GOPATH="/data/go" >> ~/.bashrc
-
 
 [ -z "$GOROOT" ] && GOROOT="/data/.go"
 [ -z "$GOPATH" ] && GOPATH="/data/go"
