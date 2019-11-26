@@ -114,3 +114,4 @@ rm -f /tmp/go.tar.gz
 
 curl https://get.please.build | bash
 
+yum install -y tmux
