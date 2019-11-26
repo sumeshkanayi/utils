@@ -101,7 +101,7 @@ touch "$HOME/.${shell_profile}"
 {
     echo '# GoLang'
     echo "export GOROOT=${GOROOT}"
-    echo 'export PATH=$GOROOT/bin:$PATH'
+    echo 'export PATH=$GOROOT/bin:$PATH:/root/.please'
     echo "export GOPATH=$GOPATH"
     echo 'export PATH=$GOPATH/bin:$PATH'
 } >> "$HOME/.${shell_profile}"
